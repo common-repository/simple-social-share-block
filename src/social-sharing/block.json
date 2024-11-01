@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "social-sharing-button/social-sharing-button",
+    "version": "0.1.0",
+    "title": "Social Sharing Button",
+    "category": "common",
+    "icon": "share",
+    "description": "Social Sharing Button",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "display": {
+            "type": "string"
+        },
+        "colour": {
+            "type": "string"
+        },
+        "side": {
+            "type": "string"
+        },
+        "show_facebook": {
+            "type": "number"
+        },
+        "show_twitter": {
+            "type": "number"
+        },
+        "text_twitter": {
+            "type": "string"
+        },
+        "show_email": {
+            "type": "number"
+        },
+        "object_email": {
+            "type": "string"
+        },
+        "text_email": {
+            "type": "string"
+        },
+        "show_print": {
+            "type": "number"
+        },
+        "url": {
+            "type": "string"
+        }
+    },
+    "textdomain": "social-sharing-button",
+    "style": "file:./style.scss",
+    "editorScript": "file:./index.js"
+} 

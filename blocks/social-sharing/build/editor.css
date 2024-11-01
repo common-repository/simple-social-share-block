@@ -1,0 +1,11 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ */
+.components-base-control{
+  margin-top: 1em ;
+}
+
+.components-base-control.components-toggle-control > .components-base-control__field > .components-base-control__label{
+  font-weight: bold;
+}

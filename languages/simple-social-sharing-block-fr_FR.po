@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sssb\n"
+"POT-Creation-Date: 2018-07-31 11:12+0200\n"
+"PO-Revision-Date: 2018-07-31 11:13+0200\n"
+"Last-Translator: \n"
+"Language-Team: Bastien Ho <b@stienho.fr>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: blocks/social-sharing/build/index.js:100 blocks/social-sharing/index.js:32
+msgid "Social Sharing Button"
+msgstr "Boutons de partage Réseaux Sociaux"
+
+#: blocks/social-sharing/build/index.js:220 blocks/social-sharing/index.js:135
+msgid "Display :"
+msgstr "Affichage :"
+
+#: blocks/social-sharing/build/index.js:223 blocks/social-sharing/index.js:139
+msgid "Images"
+msgstr "Images"
+
+#: blocks/social-sharing/build/index.js:223 blocks/social-sharing/index.js:140
+msgid "Icons"
+msgstr "Icônes"
+
+#: blocks/social-sharing/build/index.js:227 blocks/social-sharing/index.js:146
+msgid "Colour :"
+msgstr "Couleur :"
+
+#: blocks/social-sharing/build/index.js:229 blocks/social-sharing/index.js:149
+msgid "Originals"
+msgstr "Natives"
+
+#: blocks/social-sharing/build/index.js:229 blocks/social-sharing/index.js:150
+msgid "Grayscale"
+msgstr "Nuance de gris"
+
+#: blocks/social-sharing/build/index.js:233 blocks/social-sharing/index.js:158
+msgid "Show eMail"
+msgstr "Montrer le partage par eMail"
+
+#: blocks/social-sharing/build/index.js:241 blocks/social-sharing/index.js:167
+msgid "Have a look at this!"
+msgstr "Jetez un œil à ceci !"
+
+#: blocks/social-sharing/build/index.js:242 blocks/social-sharing/index.js:168
+#, fuzzy, javascript-format
+msgid ""
+"This is the object that will be used by default when sharing via eMail. If "
+"you use %s it will be replaced by the Title of the article."
+msgstr ""
+"Ce champs est le sujet du mail par défaut quand on partage par eMail. Vous "
+"pouvez utiliser %s qui sera remplacé par le titre de l'article."
+
+#: blocks/social-sharing/build/index.js:248 blocks/social-sharing/index.js:177
+msgid "You might be interested in this article."
+msgstr "Cet article pourrait vous intéresser."
+
+#: blocks/social-sharing/build/index.js:249 blocks/social-sharing/index.js:178
+#, fuzzy, javascript-format
+#| msgid ""
+#| "This is the text that will be used by default when sharing via eMail. If "
+#| "you use %s it will be replaced by the Title of the article"
+msgid ""
+"This is the text that will be used by default when sharing via eMail. If you "
+"use %s it will be replaced by the Title of the article."
+msgstr ""
+"Ce champs est le corps du mail par défaut quand on partage par eMail. Vous "
+"pouvez utiliser %s qui sera remplacé par le titre de l'article."
+
+#: blocks/social-sharing/build/index.js:252 blocks/social-sharing/index.js:183
+msgid "Show Print"
+msgstr "Montrer le bouton d'impression"
+
+#: blocks/social-sharing/build/index.js:257 blocks/social-sharing/index.js:189
+msgid "Show Facebook"
+msgstr "Montrer le bouton de partage sur Facebook"
+
+#: blocks/social-sharing/build/index.js:262 blocks/social-sharing/index.js:196
+msgid "Show Twitter"
+msgstr "Montrer le bouton de partage sur Twitter"
+
+#: blocks/social-sharing/build/index.js:270 blocks/social-sharing/index.js:205
+msgid "Hey Twitter!"
+msgstr "Salut les twittos !"
+
+#: blocks/social-sharing/build/index.js:271 blocks/social-sharing/index.js:206
+#, fuzzy, javascript-format
+#| msgid ""
+#| "This is the text that will be used by default when sharing on Twitter. If "
+#| "you use %s it will be replaced by the Title of the article"
+msgid ""
+"This is the text that will be used by default when sharing on Twitter. If "
+"you use %s it will be replaced by the Title of the article."
+msgstr ""
+"Ce champs est le message par défaut quand on partage sur Twitter. Vous "
+"pouvez utiliser %s qui sera remplacé par le titre de l'article."
+
+#: sssb.php:119
+#, php-format
+msgid "You might be interested by this article : %s"
+msgstr "Cet article pourrait vous intéresser : %s"
+
+#: sssb.php:122
+#, php-format
+msgid "Have a look at this article : %s"
+msgstr "Jetez un œil à cet article : %s"
+
+#: sssb.php:125
+#, php-format
+msgid "Hey Twitter, Have a look at this! %s"
+msgstr "Salut les twittos, jetez un œil à cet article : %s"
